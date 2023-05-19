@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+  <link href="css/style.css" rel="stylesheet"/>
+</head>
+<body class="bg-dark-blue flex">
+  <article class="card ff-lexend fs-350 bg-desat-blue text-white grid">
+
+    <div class="card__header">
+      <picture class="header__img">
+        <source media="(min-width: 1440px)" srcset="/images/image-header-desktop.jpg">
+        <img src="images/image-header-mobile.jpg" alt=" women at office">
+      </picture>
+    </div>
+
+    <div class="card__body box text-center" style="--PADDING: 2rem;">
+      <div>
+        <h2 class="ff-inter text-white fw-700 fs-600">
+          Get <span class="text-accent">insights</span> that help your business grow.
+        </h2>
+        <p class="text-white-750">
+          Discover the benefits of data analytics and make better decisions regarding revenue, customer
+          experience, and overall efficiency.
+        </p>
+        <div class="card__stats flow fs-inter text-white">
+          <div>
+            <p class="fw-700 fs-500">10k+</p>
+            <p class="text-white-600  uppercase">companies</p>
+          </div>
+          <div>
+            <p class=" fw-700 fs-500">314</p>
+            <p class="text-white-600  uppercase">templates</p>
+          </div>
+          <div>
+            <p class="fw-700 fs-500 uppercase">12m+</p>
+            <p class="text-white-600 uppercase">queries</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+ </body>
+</html>
