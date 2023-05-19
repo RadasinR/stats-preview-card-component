@@ -58,4 +58,4 @@ Learn more about emacs. Always trying to get better at coding.
 
 ## Acknowledgments
  
-- DOOM - [youtube](https://www.youtube.com/watch?v=37H7bD-G7nE) 
+- DOOM EMACS - [youtube](https://www.youtube.com/watch?v=37H7bD-G7nE) 
